@@ -90,7 +90,7 @@ const app = new Vue({
         prompt: `${prePromptText}\n${this.story}\n${this.prompt}\n${this.guidelines}`,
         max_tokens: parseInt(this.maxTokens, 10),
         temperature: parseFloat(this.temperature),
-        model: 'text-davinci-003',
+        model: 'text-davinci-002',
         frequency_penalty: parseFloat(this.frequency_penalty),
         presence_penalty: 0,
         top_p: 1
